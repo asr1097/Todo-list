@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#sideDiv {
+    height: 100%;
+    width: 300px;
+    background-color: rgb(100, 100, 100);
+    border-right: solid 3px black;
+}
+
+span {
+    margin-left: 10px;
+    float: right;
+}
+
+#tableDiv {
+    width: 1000px;
+}
+
+#mainDiv {
+    height: 100%;
+    flex-grow: 1;
+    background-color: lightgray
+}
+
+#projectTitle {
+    margin: 0;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.projectDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+
+#wrapperDiv{
+    border-top: 1px solid black;
+}
+
+.todoBtnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+table {
+    width: 1000px;
+    table-layout: fixed;
+    margin-top: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+#newProjectButtonDiv, .newTodoButtonDiv  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newTodoDiv, .newProjectDiv, .editTodoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#newTodoForm, #newProjectForm, #editTodoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin-top: 20px;;
+}
+
+#projTitleForm {
+    margin-bottom: 50px;
+}
+
+#projTitleLabel {
+    margin-top: 70px;
+}
+
+.editTodoBtnDiv, .newTodoBtnsDiv, .newProjectBtnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+#startDiv {
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+}
+
+.active {
+    background-color: rgb(218, 218, 218);
+}
+
+.priority {
+    background-color: rgb(253, 74, 74);
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+}
+
+.titleP {
+    margin: auto;
+    padding-left: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.titleP:hover {
+    transform: scale(1.1);
+}
+
+#mainP {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#startP {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    height: 40px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input[type='checkbox'] {
+    margin-bottom: 10px;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.addImg{
+    width: 24px;
+    height: 24px;
+}
+
+.addImgMain {
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+}
+
+.closeImg {
+    width: 22px;
+    height: 22px;
+}
+
+label {
+    font-weight: bolder;
+}
